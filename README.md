@@ -27,14 +27,7 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 ---
 
-## Clone the Hello World Example
-
-Cloned the official example project:
-
-```bash
-git clone https://github.com/solana-labs/example-helloworld.git
-cd example-helloworld
-```
+## Hello World Example
 
 *Project structure:*
 
