@@ -1,7 +1,3 @@
-Got it! Here's your **final `README.md`** with all screenshots properly included and matched to your filenames:
-
----
-
 ```markdown
 # Solana Hello World – Rust Smart Contract
 
@@ -61,7 +57,7 @@ cargo build-bpf
 
 ---
 
-## 🧪 Run Local Validator (Optional)
+## Run Local Validator
 
 Started the local test validator to simulate a local Solana cluster:
 
@@ -69,7 +65,7 @@ Started the local test validator to simulate a local Solana cluster:
 solana-test-validator
 ```
 
-📸 *Validator running:*
+*Validator running:*
 
 ![Test Validator](./test_validator.png)
 
@@ -109,7 +105,7 @@ Program ID:
 EQWVh1trpTorimfTwjbhBe2ZNd8eqVJZuHLPcfv66vSL
 ```
 
-📸 *Wallet screenshot:*
+*Wallet screenshot:*
 
 ![Wallet Address](./wallet address.png)
 
