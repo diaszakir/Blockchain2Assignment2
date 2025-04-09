@@ -1,4 +1,3 @@
-```markdown
 # Solana Hello World – Rust Smart Contract
 
 This project demonstrates how to build, deploy, and interact with a simple Solana smart contract using Rust. It's a basic "Hello World" program running on Solana's Devnet.
@@ -24,7 +23,7 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 *Installation screenshot:*
 
-![Solana CLI Installed](./solana_installed.png)
+![Solana CLI Installed](./screenshots/solana_installed.png)
 
 ---
 
@@ -39,7 +38,7 @@ cd example-helloworld
 
 *Project structure:*
 
-![Hello World Project](./hello_world.png)
+![Hello World Project](./screenshots/hello_world.png)
 
 ---
 
@@ -53,7 +52,7 @@ cargo build-bpf
 
 *Build successful:*
 
-![Build Success](./build.png)
+![Build Success](./screenshots/build.png)
 
 ---
 
@@ -67,7 +66,7 @@ solana-test-validator
 
 *Validator running:*
 
-![Test Validator](./test_validator.png)
+![Test Validator](./screenshots/test_validator.png)
 
 ---
 
@@ -87,7 +86,7 @@ solana program deploy dist/program/helloworld.so
 
 📸 *Deployment output:*
 
-![Program Deployed](./deploy.png)
+![Program Deployed](./screenshots/deploy.png)
 
 ---
 
@@ -107,7 +106,7 @@ EQWVh1trpTorimfTwjbhBe2ZNd8eqVJZuHLPcfv66vSL
 
 *Wallet screenshot:*
 
-![Wallet Address](./wallet address.png)
+![Wallet Address](./screenshots/wallet_address.png)
 
 ---
 
@@ -120,7 +119,9 @@ EQWVh1trpTorimfTwjbhBe2ZNd8eqVJZuHLPcfv66vSL
 ---
 
 **Dias Zakir SE-2320**
+
 **Anvar Tamabayev SE-2320**
+
 **Danel Kanbakova SE-2320**  
 
 ---
