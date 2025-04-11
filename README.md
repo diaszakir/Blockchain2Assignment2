@@ -2,16 +2,12 @@
 
 This project demonstrates how to build, deploy, and interact with a simple Solana smart contract using Rust. It's a basic "Hello World" program running on Solana's Devnet.
 
----
-
 ## Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools)
 - Git
 - VS Code (optional)
-
----
 
 ## Install Solana CLI
 
@@ -25,15 +21,11 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 
 ![Solana CLI Installed](./screenshots/solana_installed.png)
 
----
-
 ## Hello World Example
 
 *Project structure:*
 
 ![Hello World Project](./screenshots/hello_world.png)
-
----
 
 ## Build the Program
 
@@ -46,8 +38,6 @@ cargo build-bpf
 *Build successful:*
 
 ![Build Success](./screenshots/build.png)
-
----
 
 ## Configure Devnet and Deploy
 
@@ -67,8 +57,6 @@ solana program deploy dist/program/helloworld.so
 
 ![Program Deployed](./screenshots/deploy.png)
 
----
-
 ## Wallet & Program Info
 
 Wallet address:
@@ -87,20 +75,14 @@ EQWVh1trpTorimfTwjbhBe2ZNd8eqVJZuHLPcfv66vSL
 
 ![Wallet Address](./screenshots/wallet_address.png)
 
----
-
 ## Resources
 
 - [Solana Docs](https://docs.solana.com/)
 - [Solana CLI](https://docs.solana.com/cli)
 - [Solana Hello World](https://solana.com/docs/programs/rust)
 
----
-
 **Dias Zakir SE-2320**
 
 **Anvar Tamabayev SE-2320**
 
 **Danel Kanbakova SE-2320**  
-
----
