@@ -49,26 +49,12 @@ cargo build-bpf
 
 ---
 
-## Run Local Validator
-
-Started the local test validator to simulate a local Solana cluster:
-
-```bash
-solana-test-validator
-```
-
-*Validator running:*
-
-![Test Validator](./screenshots/test_validator.png)
-
----
-
 ## Configure Devnet and Deploy
 
 Set Solana to use Devnet:
 
 ```bash
-solana config set --url devnet
+solana config set --url https://api.devnet.solana.com
 ```
 
 Deployed the program with:
