@@ -32,7 +32,7 @@ sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 Built the smart contract with:
 
 ```bash
-cargo build-bpf
+cargo build-sbf
 ```
 
 *Build successful:*
@@ -50,7 +50,7 @@ solana config set --url https://api.devnet.solana.com
 Deployed the program with:
 
 ```bash
-solana program deploy dist/program/helloworld.so
+solana program deploy ./target/deploy/hello_world.so
 ```
 
 📸 *Deployment output:*
